@@ -1,1 +1,12 @@
 ashraf@DESKTOP-RLHB7PD:~$ tree -aCd -L 1 / home
+/
+├── Docker
+├── bin -> usr/bin
+├── boot
+├── dev
+
+
+ashraf@DESKTOP-RLHB7PD:~$ df -hT
+Filesystem     Type           Size  Used Avail Use% Mounted on
+none           tmpfs          5.8G  4.0K  5.8G   1% /mnt/wsl
+none           9p             285G  185G  101G  65% /usr/lib/wsl/drivers
