@@ -15,3 +15,8 @@ diff: /usr/bin/diff /usr/share/man/man1/diff.1.gz
 ashraf@DESKTOP-RLHB7PD:~$ which diff
 /usr/bin/diff
 ashraf@DESKTOP-RLHB7PD:~$
+
+pwd	          Displays the present working directory
+cd ~ or cd	  Change to your home directory; shortcut name is ~ (tilde)
+cd ..	        Change to parent directory (..)
+cd -	        Change to previous working directory; - (minus) 
