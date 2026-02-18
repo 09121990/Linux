@@ -5,8 +5,13 @@ ashraf@DESKTOP-RLHB7PD:~$ tree -aCd -L 1 / home
 ├── boot
 ├── dev
 
-
 ashraf@DESKTOP-RLHB7PD:~$ df -hT
 Filesystem     Type           Size  Used Avail Use% Mounted on
 none           tmpfs          5.8G  4.0K  5.8G   1% /mnt/wsl
 none           9p             285G  185G  101G  65% /usr/lib/wsl/drivers
+
+ashraf@DESKTOP-RLHB7PD:~$ whereis diff
+diff: /usr/bin/diff /usr/share/man/man1/diff.1.gz
+ashraf@DESKTOP-RLHB7PD:~$ which diff
+/usr/bin/diff
+ashraf@DESKTOP-RLHB7PD:~$
