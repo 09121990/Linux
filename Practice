@@ -20,3 +20,40 @@ pwd	          Displays the present working directory
 cd ~ or cd	  Change to your home directory; shortcut name is ~ (tilde)
 cd ..	        Change to parent directory (..)
 cd -	        Change to previous working directory; - (minus) 
+
+# Basics of Users and Groups
+
+ashraf@DESKTOP-RLHB7PD:~$ tail -15 /etc/group
+sgx:x:108:
+kvm:x:109:
+render:x:110:
+syslog:x:111:
+uuidd:x:112:
+tcpdump:x:113:
+_ssh:x:114:
+admin:x:115:
+netdev:x:116:ashraf
+ashraf:x:1000:
+docker:x:1001:ashraf,n8nuser
+landscape:x:117:
+ssl-cert:x:118:postgres
+postgres:x:119:
+n8nuser:x:1002:
+
+ashraf@DESKTOP-RLHB7PD:~$ tail -15 /etc/passwd
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:102:105::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:106:112::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:107:113::/nonexistent:/usr/sbin/nologin
+ashraf:x:1000:1000:,,,:/home/ashraf:/bin/bash
+landscape:x:108:117::/var/lib/landscape:/usr/sbin/nologin
+postgres:x:109:119:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
+n8nuser:x:1001:1002:,,,:/home/n8nuser:/bin/bash
+dnsmasq:x:110:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+ashraf@DESKTOP-RLHB7PD:~$
