@@ -57,3 +57,19 @@ postgres:x:109:119:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
 n8nuser:x:1001:1002:,,,:/home/n8nuser:/bin/bash
 dnsmasq:x:110:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
 ashraf@DESKTOP-RLHB7PD:~$
+
+
+Table: Keyboard Shortcuts and Tasks
+Keyboard Shortcut	Task
+CTRL-L	Clears the screen
+CTRL-S	Temporarily halt output to the terminal window
+CTRL-Q	Resume output to the terminal window
+CTRL-D	Exits the current shell
+CTRL-Z	Puts the current process into suspended background and back to prompt
+CTRL-C	Kills the current process
+CTRL-H	Works the same as backspace
+CTRL-A	Goes to the beginning of the line
+CTRL-W	Deletes the word before the cursor
+CTRL-U	Deletes from beginning of line to cursor position
+CTRL-E	Goes to the end of the line
+Tab	Auto-completes files, directories, and binaries
