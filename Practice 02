@@ -1,0 +1,7 @@
+ashraf@DESKTOP-RLHB7PD:~$ ip  --brief add show
+lo               UNKNOWN        127.0.0.1/8 ::1/128
+eth0             UP             172.22.137.44/20 fe80::215:5dff:feaa:145e/64
+docker0          DOWN           172.17.0.1/16
+br-1e6f70a680fd  DOWN           172.20.0.1/16
+br-32d427a4e2e7  DOWN           172.19.0.1/16
+br-8ab5934da1e8  DOWN           172.18.0.1/16 fc00:f853:ccd:e793::1/64
